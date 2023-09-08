@@ -13,6 +13,7 @@ module conta.sistema {
 	exports conta.sistema.porta;
 	exports conta.adaptador;
 
+	//necessário para a suiteCore rodar
 	exports teste.unidade.dominio.modelo;
 
 	// abre reflexão spring
