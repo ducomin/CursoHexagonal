@@ -32,7 +32,7 @@ public class PortaTransferenciaImp implements PortaTransferencia {
 
 	@Override
 	public Conta getConta(final Integer numero) {
-		return null;
+		return repositorio.get(numero);
 	}
 
 	@Override
