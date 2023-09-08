@@ -13,6 +13,8 @@ module conta.sistema {
 	exports conta.sistema.porta;
 	exports conta.adaptador;
 
+	exports teste.unidade.dominio.modelo;
+
 	// abre reflexão spring
 	opens conta.sistema.casodeuso.porta;
 	opens conta.sistema.casodeuso.imp;
