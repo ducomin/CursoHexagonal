@@ -13,6 +13,6 @@ module conta.desktop {
 	// abre telas e builds
 	opens conta.tela;
 	opens conta.dsv;
-	opens conta.hml;
-	opens conta.prd;
+	//opens conta.hml;
+	//opens conta.prd;
 }

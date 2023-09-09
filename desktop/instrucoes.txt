@@ -1,0 +1,14 @@
+
+Para rodar o aplicativo em JavaFX
+
+https://www.youtube.com/watch?v=hS_6ek9rTco
+
+Será necessário baixar o versão correspondente ao JDK utilizado no projeto, aqui no caso para o JDK 12
+foi baixado o JavaFX 17.0.8
+
+https://docs.tizen.org/application/tizen-studio/setup/openjdk/
+
+No edit configuration do run devemos adicionar o VM Optional:
+--module-path "C:\Java\javafx-sdk-17.0.8\lib" --add-modules javafx.controls,javafx.fxml
+
+Onde devemos verificar o path da máquina para a lib do JavaFX
