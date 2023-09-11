@@ -10,9 +10,19 @@ module conta.desktop {
 	requires java.sql;
 	// usa javafx
 	requires javafx.controls;
+
+	// ==> BUILD 3 e 4
+	// usa conta serviços
+	requires conta.servicos;
+	// usa spring jdbc da conta serviços
+	requires spring.jdbc;
+	requires hsqldb;
+
 	// abre telas e builds
 	opens conta.tela;
 	opens conta.dsv;
-	//opens conta.hml;
+	opens conta.hml;
 	//opens conta.prd;
+
+
 }

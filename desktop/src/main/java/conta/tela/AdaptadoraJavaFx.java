@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import conta.dsv.Build2;
+import conta.hml.Build3;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -13,7 +14,8 @@ public class AdaptadoraJavaFx extends Application {
 	@Override
 	public void init() {
 		System.out.println("iniciando spring..");
-		spring = new AnnotationConfigApplicationContext(Build2.class);
+		//spring = new AnnotationConfigApplicationContext(Build2.class);
+		spring = new AnnotationConfigApplicationContext(Build3.class);
 	}
 
 	@Override
